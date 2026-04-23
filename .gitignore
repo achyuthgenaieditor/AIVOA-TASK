@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+app/node_modules/
+
+# Build output
+dist/
+app/dist/
+dist-ssr/
+
+# Environment files and secrets
+.env
+*.local
+backend/.env
+
+# Local databases and runtime logs
+*.db
+*.sqlite
+*.sqlite3
+*.log
+logs/
+
+# Python caches
+__pycache__/
+.pytest_cache/
+*.py[cod]
+
+# Editor and OS files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
