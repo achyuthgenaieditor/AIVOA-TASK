@@ -1,6 +1,6 @@
 # AI-First CRM HCP Module
 
-This repository implements the assignment's Task 1: an AI-first CRM Log Interaction Screen for Healthcare Professional interactions.
+AI-first CRM Log Interaction Screen for Healthcare Professional interactions.
 
 ## Architecture
 
@@ -60,10 +60,6 @@ Set these environment variables:
 GROQ_API_KEY=your_groq_key
 GROQ_MODEL=llama-3.3-70b-versatile
 DATABASE_URL=postgresql+psycopg2://user:password@host:5432/db
-FRONTEND_ORIGIN=https://your-netlify-site.netlify.app
-
-# Netlify frontend
-VITE_API_URL=https://your-backend-service-url
 ```
 
 ## Demo Prompts
